@@ -80,6 +80,7 @@ function gameOverText(answer, clicked) {
   } else {
     return;
   }
+
 }
 
 var userStats = document.getElementById('user-score');

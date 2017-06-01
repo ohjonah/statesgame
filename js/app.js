@@ -83,14 +83,14 @@ renderHighScores();
 // }
 
 // listen for click on the startButton element and run startGame function
-startButton.addEventListener('click', startGame);
-
-function startGame() {
-  if (inputBox.value === '') {
-    inputBox.value = 'NO NAME';
-    saveUser();
-  }
-}
+startButton.addEventListener('click', saveUser);
+// 
+// function startGame() {
+//   if (inputBox.value === '') {
+//     inputBox.value = 'USER';
+//     saveUser();
+//   }
+// }
 
 // starts game. pulls name from input box and creates user object, saves that
 // to localStorage and then clears the input box.
