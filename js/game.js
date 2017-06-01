@@ -84,6 +84,7 @@ function gameOverText(answer, clicked) {
     saveArray();
     return;
   }
+
 }
 
 var userStats = document.getElementById('user-score');

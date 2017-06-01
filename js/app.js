@@ -82,6 +82,7 @@ renderHighScores();
 // }
 
 // listen for click on the startButton element and run startGame function
+<<<<<<< HEAD
 startButton.addEventListener('click', startGame);
 
 function startGame() {
@@ -97,6 +98,16 @@ function updateScoresArray() {
   scoresArray.push(JSON.parse(localStorage.savedUser));
   //console.log();
 }
+=======
+startButton.addEventListener('click', saveUser);
+// 
+// function startGame() {
+//   if (inputBox.value === '') {
+//     inputBox.value = 'USER';
+//     saveUser();
+//   }
+// }
+>>>>>>> features/bug-hunt
 
 // starts game. pulls name from input box and creates user object, saves that
 // to localStorage and then clears the input box.
