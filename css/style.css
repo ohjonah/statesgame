@@ -1,40 +1,38 @@
-h1 {
-  display: inline-block;
-  position: relative;
-  padding: 30px 0px 30px 0px;
-  font-family: 'Press Start 2P', cursive;;
-  font-size: 46px;
-  color: white;
+.logo-wrap {
+  height: 155px;
+  padding-top: 20px;
 }
 
-#states {
-  -webkit-animation: movestates 3s;
-  animation: movestates 3s;
-  margin-left: 320px;
-  }
-
-  @-webkit-keyframes movestates {
-  from {right: 500px;}
-  to {right: 0px;}
-  }
-
-#game {
-  -webkit-animation: movegame 3s;
-  animation: movegame 3s;
-  margin-left: 20px;
+#make-america {
+  -webkit-animation: moveamerica 3s;
+  animation: moveamerica 3s;
+  margin-left: 290px;
+  position: absolute;
+  height: 60px;
 }
 
-  @-webkit-keyframes movegame {
-  from {left: 500px;}
-  to {left: 0px;}
-  }
-
-.top-border {
-  padding-left: 5px;
-  border: 3px solid blue;
-  border-radius: 30px;
+@-webkit-keyframes moveamerica {
+  from {right: 1200px;}
+  to {right: 468px;}
 }
 
+#guess-again {
+  -webkit-animation: movegreat 3s;
+  animation: movegreat 3s;
+  margin-left: 330px;
+  position: absolute;
+  height: 60px;
+  margin-top: 70px;
+}
+
+@-webkit-keyframes movegreat {
+  from {left: 900px;}
+  to {left: 170px;}
+  }
+
+#top-border {
+  width: 100%;
+}
 label {
   margin-left: 27%;
   font-size: 26px;
@@ -100,25 +98,11 @@ li {
 }
 
 footer {
-  border: 3px solid blue;
-  border-radius: 20px;
-  color: pink;
-  margin-top: 8%;
+  width: 1100px;
+  height: 60px;
 }
 
-footer p {
-  text-align: center;
-}
-
-.footer-dots {
-  display: inline;
-  font-family: 'Press Start 2P', cursive;;
-  font-size: 24px;
-  color: yellow;
-}
-
-#top-dots {
-  font-size: 24px;
-  color: yellow;
-  font-family: 'Press Start 2P', cursive;;
+#bottom-border {
+  margin-top: 30px;
+  width: 100%;
 }
